@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    /* background-color: aqua;
+    border: 1px solid black; */
+    height: 100%;
+    padding: 20px;
+}
+.header{
+    margin-bottom: 20px;
+
+}
+.promo{
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+.box1{
+    background: url(./img/item.jpeg);
+    background-size: cover;
+}
+.big{
+    font-size: 40px;
+}
+.big1{
+    font-size: 30px;
+}
+.font{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.items{
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+.box2{
+    max-height: 130px;
+    overflow: hidden;
+    transition: all 2s;
+}
+.box2:hover{
+    max-height: 600px;
+}
+.tex{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.mon{
+    font-size: 20px;
+}
+.photo{
+    min-height: 400px;
+    margin-bottom: 20px;
+}
+.img{
+    background: url(./img/man.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.img2{
+    background: url(./img/man2.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.img3{
+    background: url(./img/girl.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.img4{
+    background: url(./img/man3.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.col-3 p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.col-3 button{
+    margin-left: 75px;
+}
+.contact{
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+i{
+    margin-top: 20px;
+    font-size: 50px;
+}
+input{
+    width: 50%;
+    border-radius: 10px;    
+}
+.button1{
+    text-align: center;
+    width: 100px;
+    background-color: rgba(165, 42, 42, 0.378);
+}
+@media screen and (max-width:1240px) {
+    .img{
+        height: 150px;
+        width: 200px;
+    }
+    .img2{
+        height: 150px;
+        width: 200px;
+    }
+    .img3{
+        height: 150px;
+        width: 200px;
+    }
+    .img4{
+        height: 150px;
+        width: 200px;
+    }
+    .col-3 button{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1000px){
+    .box h1{
+        display: none;
+    }
+    .big{
+        font-size: 30px;
+    }
+    .big1{
+        font-size: 20px;
+    }
+    .box1{
+        /* display: none; */
+    }
+    .col-2 .box{
+        font-size: 16px;
+    }   
+    .img{
+        height: 100px;
+        width: 150px;
+    }     
+    .img2{
+        height: 100px;
+        width: 150px;
+    }   
+    .img3{
+        height: 100px;
+        width: 150px;
+    }   
+    .img4{
+        height: 100px;
+        width: 150px;
+    }   
+    .photo{
+        margin-bottom: 0;
+    }   
+}
+@media screen and (max-width:764px){
+    .box1{
+        display: none;
+    }
+    .big{
+        font-size: 20px;
+    }
+    .big1{
+        font-size: 10px;
+    }
+    .col-2 .box{
+        font-size: 12px;
+    } 
+    .box ul{
+        font-size: 10px;
+    } 
+    .img{
+        height: 75px;
+        width: 100px;
+    }
+    .img2{
+        height: 75px;
+        width: 100px;
+    }
+    .img3{
+        height: 75px;
+        width: 100px;
+    }
+    .img4{
+        height: 75px;
+        width: 100px;
+    }
+    .col-3 button{
+        margin-left: 25px;
+    }
+    .col-4 p{
+        font-size: 12px;
+    }
+    input{
+        width: 100%;
+        border-radius: 10px;    
+    }
+}
+@media screen and (max-width:500px){
+    .col-3 button{
+        margin-left: 15px;
+    } 
+    .col-4 p{
+        font-size: 10px;
+    }
+    textarea{
+        width: 100px;
+    }
+}
+@media screen and (max-width:400px){
+    .box ul{
+        font-size: 6px;
+    }
+    .img{
+        height: 50px;
+        width: 75px
+    }
+    .img2{
+        height: 50px;
+        width: 75px
+    }
+    .img3{
+        height: 50px;
+        width: 75px
+    }
+    .img4{
+        height: 50px;
+        width: 75px
+    }
+    i{
+        font-size: 25px;
+    }
+    textarea{
+        height: 100px;
+    }
+    .col-4 p{
+        font-size: 8px;
+    }
+    .col-3 button{
+        margin-left: 5px;
+    }
+    .box2{
+        max-height: 100px;
+}
